@@ -40,7 +40,7 @@ function App() {
   }, [length, numAllowed, charAllowed, generatePassword]);
   return (
     <div className="bg-gradient-to-r from-white to-gray-700 rounded-2xl">
-      <h1 className="text-2xl p-2 font-mono">Generate Password</h1>
+      <h1 className="text-2xl p-4 font-mono">Generate Password</h1>
       <div>
         <input
           className="m-2 px-2 py-1 rounded-lg w-96 font-mono"
